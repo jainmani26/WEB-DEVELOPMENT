@@ -1,0 +1,25 @@
+//array declaration
+let array = [1,2,3,4,5];
+console.log(array);
+// console.log(array.length);
+// let i=0;
+// while(i < array.length)
+// {
+//     console.log("element at index",i, "is" , array[i]);
+//     i++;
+// }
+
+//push-> To add at last
+//unshift-> To add in the begining
+array.push("last value");
+array.unshift("first value");
+console.log("''''''''''''");
+console.log(array);
+
+//pop-> To remove from last
+//unshift-> To add in the begining
+array.pop();
+console.log(array);
+console.log("''''''''''''");
+array.shift();
+console.log(array);
