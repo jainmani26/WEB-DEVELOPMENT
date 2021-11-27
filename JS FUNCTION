@@ -1,0 +1,14 @@
+//Non-Primitive : Arrays, Object, function
+//Function Defination
+function sayHi(param)
+{
+    // console.log("Hello from sayHi");
+    // console.log("param recieved", param);
+    return "returned from a function";
+}
+//Function Call
+// sayHi(10);
+// sayHi("Hello");
+// sayHi([1,2,3,4,5]);
+let rval = sayHi([1,2,3,4,5]);
+console.log("rval",rval);
