@@ -1,0 +1,25 @@
+let singleQuotes = '     single qoutes string    ';
+let doubleQuotes = "double quotes string";
+
+console.log(singleQuotes);
+console.log(doubleQuotes);
+
+let char = singleQuotes.charAt(4);
+console.log(char);
+
+let ascii = singleQuotes.charCodeAt(4);
+console.log(ascii);
+
+let substr = singleQuotes.substring(2,8);
+console.log(substr);
+
+//trim-> used to remove wwhitespaces from start and end of a string
+singleQuotes = singleQuotes.trim();
+
+//split -> To split the string 
+let arrStr = singleQuotes.split(" ");
+console.log(arrStr);
+
+//join 
+let str= arrStr.join("+");
+console.log(str);
